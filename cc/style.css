@@ -1,0 +1,139 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding-right: 0.4%;
+    padding-top: 2%;
+}
+
+body {
+    max-width: 100vw;
+    font-family: "Trebuchet MS";
+    padding: 20px;
+  }  
+header{
+    background:url("background.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style:none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 20px 0;
+}
+.nav-area li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 25px;
+}
+.nav-area li a:hover {
+    background:#ff649e;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.welcome-text a{
+    border: 1px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color:black;
+}
+.welcome-text a:horver{
+    background: #333;
+    color: ##fff;
+}
+section#accueil img {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    float: left;
+}
+section#accueil div p{
+    font-size: 20px;
+}
+section#services div {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+  }
+  section#services span {
+    clear: both;
+    padding-top: 90px;
+  }
+  section#services div img {
+    width: 30%;
+  }
+  section#services div h3 {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+  }
+  section#machines div {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+  }
+  section#machines span {
+    clear: both;
+    padding-top: 90px;
+  }
+  section#machines div img {
+    width: 30%;
+  }
+  section#machines div h3 {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+  }
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  span {
+    display: block;
+    border-bottom: 2px solid MidnightBlue;
+    width: 50%;
+    height: 1px;
+    margin: 60px auto;
+  }
+  footer {
+    color: #ff649e;
+    text-align: center;
+    padding: 20px;
+  }
